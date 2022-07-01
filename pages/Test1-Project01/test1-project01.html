@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal Grade</title>
+    <script src="../../resoures/js/jquery.min.js"></script>
+    <script src="../../resoures/js/semantic.min.js"></script>
+    <script src="test1-project01.js"></script>
+
+    <link href="../../resoures/css/semantic.min.css" rel='stylesheet'>
+
+    <link href="../../resoures/css/semantic.min.css" rel='stylesheet'>
+</head>
+
+<body>
+    <div class="ui menu">
+        <div class="header item">
+            Home
+        </div>
+        <a class="item">
+            About Us
+        </a>
+        <a class="item">
+            Jobs
+        </a>
+        <a class="item">
+            Locations
+        </a>
+    </div>
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="ui vertical  menu">
+                <div class="item">
+                    <div class="header">Programe Training</div>
+                    <div class="menu">
+                        <a id="HOME" class="item" data-tagtype="menuitem" data-auth="no"
+                            href="../tamplate-menu-boss/">Menu</a>
+                        <a id="CAL-GRADE" class="item" data-tagtype="menuitem" data-auth="no"
+                            href="../cal-grade-boss/cal-grade.html">Calculation Grade</a>
+                        <a id="CHECK-FIZZBUZZ" class="item" data-tagtype="menuitem" data-auth="no"
+                            href="../fizzbuzz-boss/fizzbuzz.html">Check Fizz Buzz</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Exam</div>
+                    <div class="menu">
+                        <a class="item">S</a>
+                        <a class="item">B</a>
+                        <a class="item">C</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Hosting</div>
+                    <div class="menu">
+                        <a class="item">D</a>
+                        <a class="item">E</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Support</div>
+                    <div class="menu">
+                        <a class="item">F</a>
+                        <a class="item">G</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="twelve wide stretched column">
+            <div class="ui segment">
+                <br>
+                <div class="ui grid">
+
+                    <div class="row">
+                        <div class="two wide column"></div>
+                        <div style="color: #445b82;" class="six wide column">
+                            <h1>Login</h1>
+                        </div>
+                        <div style="color: #445b82;" class="four wide column">
+                            <h1 id="result"></h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="two wide column"></div>
+                        <div class="six wide column">
+                            <div class="ui small form">
+                                <div class="one fields">
+                                    <div class="field">
+                                        <label style="color: #445b82;">Email</label>
+                                        <div class="ui big icon input">
+                                            <input style="width: 300px;" type="text" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="align-self : center;" class="four wide column">
+                            <button style="width: 220px;" class="ui facebook button">
+                                <i class="facebook icon"></i>
+                                Continue with Facebook
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="two wide column"></div>
+                        <div class="six wide column">
+                            <div class="ui small form">
+                                <div class="one fields">
+                                    <div class="field">
+                                        <label style="color: #445b82;">Password</label>
+                                        <div class="ui big icon input">
+                                            <input style="width: 300px;" type="password" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="align-self : center;" class="four wide column">
+                            <button style="width: 220px;" class="ui google plus button">
+                                <i class="google icon"></i>
+                                Continue with Google
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="two wide column"></div>
+                        <div class="six wide column">
+                            <div class="ui small form">
+                                <div class="one fields">
+                                    <div class="field">
+                                        <label style="color: #58b8f5;">Forgot your password?</label>
+                                        <button onclick="login()" style="width: 200px;" class="ui blue button">Log in</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
